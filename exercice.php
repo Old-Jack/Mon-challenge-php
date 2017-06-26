@@ -22,13 +22,10 @@ foreach ($plats as $plat){
 
 <?php
 //Niveau 2 Exercice 2
-
 //Des espaces pour 11 caractères
-$genres = "horreur    fantastique action      western     thriller    comedie     drame  romance   historique ";
-
-$array1=str_split($genres,11);
+$genres = "horreur fantastique action western thriller comedie drame romance historique";
+$array1=explode(" ", $genres);
 print_r ($array1);
-
 ?>
 
 <?php
